@@ -1,0 +1,72 @@
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  margin:auto;
+  margin-top: 25px;
+  width: 1000px;
+  height: 720px;
+  padding: 90px;
+  border-radius: 25px;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo-text {
+  color: limegreen;
+  text-align: center;
+  margin: 5px;
+  font-size: 25px;
+}
+
+nav {
+  background: limegreen;
+  padding: 10px;
+  text-align: center;
+}
+
+div.scooter {
+  color:white;
+}
+
+div > h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom:0;
+  margin-top: 30px;
+}
+
+.arrow:before {
+  content: "\21A6";
+}
+
+.charge {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.charge.choice1 {
+width: 300px;
+background: sandybrown;
+}
+
+.charge.choice2 {
+width: 500px;
+background: lime;
+}
+
+.charge.choice3 {
+width: 150px;
+background: indianred;
+}
